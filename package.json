@@ -15,8 +15,8 @@
         "test": "mocha --require @babel/register --gc-global tests/test.vectors.js"
     },
     "dependencies": {
-        "bindings": "*",
-        "nan": "*"
+        "bindings": "^1.5.0",
+        "nan": "^2.22.0"
     },
     "keywords": [
         "sha256d",
@@ -29,8 +29,8 @@
         "keccak"
     ],
     "devDependencies": {
-        "@babel/register": "*",
-        "mocha": "*"
+        "@babel/register": "7.25.9",
+        "mocha": "11.0.1"
     },
     "release": {
         "branches": [
