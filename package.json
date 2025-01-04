@@ -1,6 +1,6 @@
 {
     "name": "multi-hashing",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "main": "index.js",
     "author": {
         "name": "Matthew Little",
@@ -15,28 +15,22 @@
         "test": "mocha --require @babel/register --gc-global tests/test.vectors.js"
     },
     "dependencies": {
-        "bindings": "^1.5.0",
-        "nan": "^2.20.0"
+        "bindings": "*",
+        "nan": "*"
     },
     "keywords": [
-        "argon2",
+        "sha256d",
         "scrypt",
-        "scryptjane",
-        "script-n",
         "x11",
+        "x13",
+        "x15",        
         "quark",
-        "keccak_hash",
         "skein",
-        "bcrypt",
-        "keccak",
-        "blake",
-        "shavite",
-        "fugue",
-        "sha1"
+        "keccak"
     ],
     "devDependencies": {
-        "@babel/register": "^7.24.6",
-        "mocha": "^10.7.3"
+        "@babel/register": "*",
+        "mocha": "*"
     },
     "release": {
         "branches": [
