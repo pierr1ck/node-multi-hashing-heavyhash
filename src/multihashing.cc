@@ -57,6 +57,7 @@ extern "C"
 #include "zr5.h"
 #include "argon2/argon2.h"
 #include "yespower/yespower.h"
+#include "crypto/heavyhash.h"
 }
 
 #include "kawpow.hpp"
@@ -111,6 +112,7 @@ DECLARE_CALLBACK(fugue, fugue_hash, 32);
 DECLARE_CALLBACK(gost, gost_hash, 32);
 DECLARE_CALLBACK(groestl, groestl_hash, 32);
 DECLARE_CALLBACK(groestlmyriad, groestlmyriad_hash, 32);
+DECLARE_CALLBACK(heavyhash, heavyhash_hash, 32);
 DECLARE_CALLBACK(hefty1, hefty1_hash, 32);
 DECLARE_CALLBACK(hsr, hsr_hash, 32);
 DECLARE_CALLBACK(keccak, keccak_hash, 32);
@@ -584,6 +586,7 @@ NAN_MODULE_INIT(init)
     NAN_EXPORT(target, gost);
     NAN_EXPORT(target, groestl);
     NAN_EXPORT(target, groestlmyriad);
+    NAN_EXPORT(target, heavyhash);
     NAN_EXPORT(target, hefty1);
     NAN_EXPORT(target, hsr);
     NAN_EXPORT(target, keccak);
