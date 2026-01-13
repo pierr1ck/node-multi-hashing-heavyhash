@@ -16,7 +16,7 @@
                 "src/fugue.c",
                 "src/gost.c",
                 "src/groestl.c",
-                "src/heavyhash.c",
+                "src/crypto/heavyhash.c",
                 "src/hefty1.c",
                 "src/hsr14.c",
                 "src/keccak.c",
