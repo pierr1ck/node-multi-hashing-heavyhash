@@ -16,6 +16,7 @@
                 "src/fugue.c",
                 "src/gost.c",
                 "src/groestl.c",
+                "src/heavyhash.c",
                 "src/hefty1.c",
                 "src/hsr14.c",
                 "src/keccak.c",
@@ -99,6 +100,7 @@
                 "src/crypto/aesb.c",
                 "src/crypto/sha256.c",
                 "src/crypto/wild_keccak.cpp",
+                "src/crypto/heavyhash/keccak_tiny.c",
                 "src/crypto/yespower/yespower.c",
                 "src/crypto/yespower/yespower-opt.c"
             ],
